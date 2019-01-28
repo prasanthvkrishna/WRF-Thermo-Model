@@ -27,3 +27,5 @@ To compile for the 2D parallel run
 It will give you executable in the run directory
 
 More information is coming soon...
+
+Contact: Prasanth Valayamkunnath, Virginia Tech (pvk03@vt.edu)
