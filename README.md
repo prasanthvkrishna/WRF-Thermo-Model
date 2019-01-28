@@ -2,31 +2,28 @@
 
 ***********CAUSION: This is not the final version of the model!!!!**************
 
-This Fortran90 model can estimate centain thermodynamic state variables of the atmosphere 
-from WRF-ARW netcdf output data. The updated version (next version) of the model will use Thermodynamic 
-Equation of SeaWater 2010 (TEOS-10). Eventhough there exists some of the TEOS-10 modules (Air*, Liq*,Flu*) 
-available in the src directory. The source description of these module are commented inside 
-the modules. However they are not used in this version. The surrent version uses constants and methods 
-described in the WRF ARW technical description.
+This Fortran90 model can estimate certain thermodynamic state variables of the atmosphere from WRF-ARW NetCDF output data. The updated version (next version) of the model will use Thermodynamic 
+equation of SeaWater 2010 (TEOS-10). Even though there exists some of the TEOS-10 modules (Air*, Liq*, Flu*) 
+available in the src directory. The source description of these modules are commented inside 
+the modules. However, they are not used in this version. The current version uses constants and methods described in the WRF ARW technical description.
 
 Output Includes
-    Enthalpy, Entropy, Irreversible entropy and some other important thermodyncamic variables.
+    Enthalpy, Entropy, Irreversible entropy and some other important thermodynamic variables.
 
 
-Parallel run with Openmp
+Parallel run with OpenMP
 
-Openmp usually comes with GCC/GFORTRAN compiler. This model uses openmp to reduce the simulation time. 
-Any user can define the number of threads using the namelist.thermo in the run directory. To compile the 
-model the user should have preinstalled netcdf fortran libraries. 
+OpenMP usually comes with GCC/gfortran compiler. This model uses OpenMP to reduce the simulation time. 
+Any user can define the number of threads using the namelist.thermo in the run directory. To compile the model the user should have preinstalled NetCDF Fortran libraries. 
 
-To compile for 1D parallel run
+To compile for the 1D parallel run
 
 ./compile_1d.sh
 
-To compile for 2D parallel run
+To compile for the 2D parallel run
 
 ./compile_2d.sh
 
-It will give you excecutable in the run directory
+It will give you executable in the run directory
 
-More information coming soon....
+More information is coming soon...
