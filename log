@@ -1,0 +1,130 @@
+--------------------------------------
+--------Compiling files src/module_param.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_param.f90
+--------------------------------------
+--------Compiling files src/module_netcdf_read.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_netcdf_read.f90
+--------------------------------------
+--------Compiling files src/module_listfile.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_listfile.f90
+--------------------------------------
+--------Compiling files src/module_rd_namelist.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_rd_namelist.f90
+--------------------------------------
+--------Compiling files src/Constants_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Constants_0.f90
+--------------------------------------
+--------Compiling files src/Convert_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Convert_0.f90
+--------------------------------------
+--------Compiling files src/Air_1.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_1.f90
+--------------------------------------
+--------Compiling files src/Flu_1.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_1.f90
+--------------------------------------
+--------Compiling files src/Air_2.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_2.f90
+--------------------------------------
+--------Compiling files src/Maths_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Maths_0.f90
+--------------------------------------
+--------Compiling files src/Air_3a.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_3a.f90
+--------------------------------------
+--------Compiling files src/Air_3b.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_3b.f90
+--------------------------------------
+--------Compiling files src/Flu_2.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_2.f90
+--------------------------------------
+--------Compiling files src/Flu_3a.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_3a.f90
+--------------------------------------
+--------Compiling files src/Flu_3b.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_3b.f90
+--------------------------------------
+--------Compiling files src/thermo.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/thermo.f90
+Makefile:55: recipe for target 'thermo.o' failed
+--------------------------------------
+--------Compiling files src/module_param.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_param.f90
+--------------------------------------
+--------Compiling files src/module_netcdf_read.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_netcdf_read.f90
+--------------------------------------
+--------Compiling files src/module_listfile.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_listfile.f90
+--------------------------------------
+--------Compiling files src/module_rd_namelist.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/module_rd_namelist.f90
+--------------------------------------
+--------Compiling files src/Constants_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Constants_0.f90
+--------------------------------------
+--------Compiling files src/Convert_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Convert_0.f90
+--------------------------------------
+--------Compiling files src/Air_1.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_1.f90
+--------------------------------------
+--------Compiling files src/Flu_1.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_1.f90
+--------------------------------------
+--------Compiling files src/Air_2.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_2.f90
+--------------------------------------
+--------Compiling files src/Maths_0.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Maths_0.f90
+--------------------------------------
+--------Compiling files src/Air_3a.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_3a.f90
+--------------------------------------
+--------Compiling files src/Air_3b.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Air_3b.f90
+--------------------------------------
+--------Compiling files src/Flu_2.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_2.f90
+--------------------------------------
+--------Compiling files src/Flu_3a.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_3a.f90
+--------------------------------------
+--------Compiling files src/Flu_3b.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/Flu_3b.f90
+--------------------------------------
+--------Compiling files src/thermo.f90
+--------------------------------------
+gfortran -c -Wall -fcheck=all -I/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//include -L/home/pvk03/local/gcc-5.4/netcdf-4.4.1.1//lib -lnetcdf -lnetcdff   src/thermo.f90
+Makefile:55: recipe for target 'thermo.o' failed
