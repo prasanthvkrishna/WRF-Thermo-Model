@@ -1,1 +1,13 @@
-
+&THERMO
+indir 	  = './'
+outdir	  = './out/'
+fname	  = 'wrfout_d01_2003'
+zonefile  = '/media/pvk03/ARCHIVE1/381/BACKUP/2085/geo_em.d01.nc'
+nx	  = 485
+ny        = 324
+nz        = 39
+dx        = 12000.
+dy        = 12000.
+dt        = 1
+num_threads = 8
+/  
