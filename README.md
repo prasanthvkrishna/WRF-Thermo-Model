@@ -4,8 +4,8 @@
 
 This Fortran90 model can estimate certain thermodynamic state variables of the atmosphere from WRF-ARW NetCDF output data. The updated version (next version) of the model will use Thermodynamic 
 equation of SeaWater 2010 (TEOS-10). Even though there exists some of the TEOS-10 modules (Air*, Liq*, Flu*) 
-available in the src directory. The source description of these modules are commented inside 
-the modules. However, they are not used in this version. The current version uses constants and methods described in the WRF ARW technical description.
+available in the src directory, they are not used in this version. The source description of these modules are commented inside 
+the modules. The current version uses constants and methods described in the WRF ARW technical description.
 
 Output Includes
     Enthalpy, Entropy, Irreversible entropy and some other important thermodynamic variables.
